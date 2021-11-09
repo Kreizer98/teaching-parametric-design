@@ -1,7 +1,6 @@
-
 function setup() {
   createCanvas(400, 400);
-  background(0);
+  background('red');
   frameRate(2); //set framerate to 2 = drawfunction is slower
 }
 
@@ -18,7 +17,7 @@ function draw() {
 }
 
 function mousePressed() { //reset
- // setTimeout(mousePressed,9000); //reset happens after click every 9 sec
+ //setTimeout(mousePressed,2000); //reset happens after click every 9 sec
   createCanvas(400, 400);
-  background(0);
+  background('red');
 }
