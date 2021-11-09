@@ -10,7 +10,7 @@ function setup () {
 
 function draw () {
   // background(random(100, 255), random(100, 200), 255);
-  background(random(myColors));// chosse mycolors from array
+  background(random(myColors));// choose mycolors from array
   
   // we add a random number as the distance to the next rectangle
   for(let y = 0; y < sketchHeight; y += random(10, 15)) {
