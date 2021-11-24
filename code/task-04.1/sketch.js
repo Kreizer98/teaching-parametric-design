@@ -3,7 +3,7 @@ let step = 20;
 function setup() {
 	createCanvas(400, 400, SVG);
 	background(255);
-	stroke(0);
+	stroke('red');
 	strokeWeight(1);
 
 	for (let x = 0; x < width; x += step) {
@@ -18,7 +18,7 @@ function setup() {
 		let rectY = height / step * round(random(15))
         
         
-      stroke("red")
+      stroke(0)
       strokeWeight(5)
       
       strokeWeight(2)
